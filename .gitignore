@@ -1,0 +1,33 @@
+# workflow output/log/raw data... etc.
+.snakemake/*
+busco_downloads/*
+logs/*
+nohup-out/*
+old_data
+outputs/*
+rawdata/*
+ref/*
+
+# scripts for data visualization
+scripts/*
+!scripts/visualize-sqanti/notebook.ipynb
+!scripts/performance-on-simulated-data/notebook.ipynb
+!scripts/visualize-busco/notebook.ipynb
+!scripts/termini-quality/notebook.ipynb
+!scripts/read-quality/notebook.ipynb
+!scripts/read-classification-result/notebook.ipynb
+!scripts/nanoprepro-params/notebook.ipynb
+!scripts/processed-read-length/notebook.ipynb
+!scripts/processed-read-length/notebook.py
+!scripts/soft-clips/notebook.ipynb
+!scripts/runtime-memory/notebook.ipynb
+!scripts/runtime-memory/notebook.py
+
+# software source codes
+src/*
+!src/longbow-2.3.1/Dockerfile
+!src/nanoprep-0.0.19-mprof/Dockerfile
+!src/cutadapt-5.1/Dockerfile
+!src/pychopper-2.7.10/Dockerfile
+!src/rattle-1.0/Dockerfile
+!src/nanoprep-0.0.20-mprof/Dockerfile

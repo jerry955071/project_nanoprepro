@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# link to data from old project
+ln -s /home/b05b01002/HDD/project_nanoprep/ old_data
+docker volume create \
+  --driver local \
+  --opt type=nfs \
+  --opt o=addr=192.168.50.197,ro \
+  --opt device=:/QNAP/b05b01002/project_nanoprep \
+  project_nanoprep
+
+docker volume create \
+  --driver local \
+  --opt type=nfs \
+  --opt o=addr=192.168.50.197,rw \
+  --opt device=:/QNAP/b05b01002/project_nanoprep_re \
+  project_nanoprep_re
+
+docker --context docker-olaf volume create \
+  --driver local \
+  --opt type=nfs \
+  --opt o=addr=192.168.50.197,rw \
+  --opt device=:/QNAP/b05b01002/project_nanoprep_re \
+  project_nanoprep_re
+

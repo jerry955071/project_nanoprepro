@@ -1,0 +1,354 @@
+{
+    "samples": [
+        {
+            "name": "ont-10x-human",
+            "species": "hsa",
+            "kit": "LSK114",
+            "chemistry": "R10.4.1",
+            "signal_path": "rawdata/ont_10x_sc_human_cell_lines/pod5",
+            "model": "/models/dna_r10.4.1_e8.2_400bps_{accuracy}@v5.2.0",
+            "p5_sense": "CAGCTTTCTGTTGGTGCTGATATTGCAAGCAGTGGTATCAACGCAGAG",
+            "p3_sense": "A{50}AGATCGGAAGAGCGTCGTGTAGGAAGATAGAGCGACAGGCAAGTGCTG"
+        },
+        {
+            "name": "ont-visium-mouse",
+            "species": "mmu",
+            "kit": "LSK114",
+            "chemistry": "R10.4.1",
+            "signal_path": "rawdata/ont_visium_hd_3_mouse_brain/PBC44593/pod5",
+            "model": "/models/dna_r10.4.1_e8.2_400bps_{accuracy}@v5.2.0",
+            "p5_sense": "CAGCTTTCTGTTGGTGCTGATATTGCAAGCAGTGGTATCAACGCAGAG",
+            "p3_sense": "A{50}AGATCGGAAGAGCGTCGTGTAGGAAGATAGAGCGACAGGCAAGTGCTG"
+        },
+        {
+            "name": "curlcake-1",
+            "species": "curlcake-addgene",
+            "kit": "RNA004",
+            "chemistry": "R10.4.1",
+            "signal_path": "rawdata/ERR13093744",
+            "model": "/models/rna004_130bps_{accuracy}@v5.2.0"
+        },
+        {
+            "name": "curlcake-2",
+            "species": "curlcake-original",
+            "kit": "RNA004",
+            "chemistry": "R10.4.1",
+            "signal_path": "rawdata/ERR13956435/no_backup/enovoa/users/lpryszcz/cluster/rna_mods/curlcake/pod5.1k/P2_RNA004_Benchmarking_CCs_Mod",
+            "model": "/models/rna004_130bps_{accuracy}@v5.2.0"
+        },
+        {
+            "name": "mouse-testicle",
+            "species": "mmu",
+            "kit": "PCS114",
+            "chemistry": "R10.4.1",
+            "fastq_path": "rawdata/SRR32962940.fastq",
+            "model": "unknown",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}CTTGCGGGCGGCGGACTCTCCTCTGAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "camellia-perpetua",
+            "species": "cpe",
+            "kit": "PCS114",
+            "chemistry": "tbd",
+            "fastq_path": "rawdata/SRR32367465.fastq",
+            "model": "unknown",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}CTTGCGGGCGGCGGACTCTCCTCTGAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "mouse-retina-subset1",
+            "species": "mmu",
+            "kit": "PCS114",
+            "chemistry": "R10.4",
+            "fastq_path": "rawdata/rui-chen-lab/Ms_bulk_subset1.fastq.gz",
+            "model": "dna_r10.4.1_e8.2_400bps_sup@v4.3.0",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}CTTGCGGGCGGCGGACTCTCCTCTGAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "mouse-retina-subset2",
+            "species": "mmu",
+            "kit": "PCS114",
+            "chemistry": "R10.4",
+            "fastq_path": "rawdata/rui-chen-lab/Ms_bulk_subset2.fastq.gz",
+            "model": "dna_r10.4.1_e8.2_400bps_sup@v4.3.0",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}CTTGCGGGCGGCGGACTCTCCTCTGAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "ptr-109-bio1",
+            "species": "ptr",
+            "chemistry": "R9.4.1",
+            "kit": "PCS109",
+            "signal_path": "rawdata/lab_data/ptr_109_bio1",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}GAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "ptr-109-bio2",
+            "species": "ptr",
+            "chemistry": "R9.4.1",
+            "kit": "PCS109",
+            "signal_path": "rawdata/lab_data/ptr_109_bio2",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}GAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "egr-109-bio1",
+            "species": "egr",
+            "chemistry": "R9.4.1",
+            "kit": "PCS109",
+            "signal_path": "rawdata/lab_data/egr_109_bio1",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}GAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "egr-109-bio2",
+            "species": "egr",
+            "chemistry": "R9.4.1",
+            "kit": "PCS109",
+            "signal_path": "rawdata/lab_data/egr_109_bio2",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}GAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "lch-109-bio1",
+            "species": "lch",
+            "chemistry": "R9.4.1",
+            "kit": "PCS109",
+            "signal_path": "rawdata/lab_data/lch_109_bio1",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}GAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "lch-109-bio2",
+            "species": "lch",
+            "chemistry": "R9.4.1",
+            "kit": "PCS109",
+            "signal_path": "rawdata/lab_data/lch_109_bio2",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}GAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "ptr-111-bio1",
+            "species": "ptr",
+            "chemistry": "R9.4.1",
+            "kit": "PCS111",
+            "signal_path": "rawdata/lab_data/ptr_111_bio1",
+            "p5_sense": "TTTCTGTTGGTGCTGATATTGCTTT",
+            "p3_sense": "A{100}CTTGCGGGCGGCGGACTCTCCTCTGAAGATAGAGCGACAGGCAAGT"
+        },
+        {
+            "name": "0.50-0.40-0.10",
+            "species": "ptr-simulated",
+            "chemistry": "R9.4.1",
+            "kit": "PCS109",
+            "fastq_path": "old_data/outputs/simulation/{accuracy}/mixed/0.50_0.40_0.10.fq",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}GAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "0.50-0.45-0.05",
+            "species": "ptr-simulated",
+            "chemistry": "R9.4.1",
+            "kit": "PCS109",
+            "fastq_path": "old_data/outputs/simulation/{accuracy}/mixed/0.50_0.45_0.05.fq",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}GAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "0.50-0.49-0.01",
+            "species": "ptr-simulated",
+            "chemistry": "R9.4.1",
+            "kit": "PCS109",
+            "fastq_path": "old_data/outputs/simulation/{accuracy}/mixed/0.50_0.49_0.01.fq",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}GAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "0.50-0.50-0.00",
+            "species": "ptr-simulated",
+            "chemistry": "R9.4.1",
+            "kit": "PCS109",
+            "fastq_path": "old_data/outputs/simulation/{accuracy}/mixed/0.50_0.50_0.00.fq",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}GAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "0.60-0.30-0.10",
+            "species": "ptr-simulated",
+            "chemistry": "R9.4.1",
+            "kit": "PCS109",
+            "fastq_path": "old_data/outputs/simulation/{accuracy}/mixed/0.60_0.30_0.10.fq",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}GAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "0.60-0.35-0.05",
+            "species": "ptr-simulated",
+            "chemistry": "R9.4.1",
+            "kit": "PCS109",
+            "fastq_path": "old_data/outputs/simulation/{accuracy}/mixed/0.60_0.35_0.05.fq",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}GAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "0.60-0.39-0.01",
+            "species": "ptr-simulated",
+            "chemistry": "R9.4.1",
+            "kit": "PCS109",
+            "fastq_path": "old_data/outputs/simulation/{accuracy}/mixed/0.60_0.39_0.01.fq",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}GAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "0.60-0.40-0.00",
+            "species": "ptr-simulated",
+            "chemistry": "R9.4.1",
+            "kit": "PCS109",
+            "fastq_path": "old_data/outputs/simulation/{accuracy}/mixed/0.60_0.40_0.00.fq",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}GAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "0.70-0.20-0.10",
+            "species": "ptr-simulated",
+            "chemistry": "R9.4.1",
+            "kit": "PCS109",
+            "fastq_path": "old_data/outputs/simulation/{accuracy}/mixed/0.70_0.20_0.10.fq",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}GAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "0.70-0.25-0.05",
+            "species": "ptr-simulated",
+            "chemistry": "R9.4.1",
+            "kit": "PCS109",
+            "fastq_path": "old_data/outputs/simulation/{accuracy}/mixed/0.70_0.25_0.05.fq",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}GAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "0.70-0.29-0.01",
+            "species": "ptr-simulated",
+            "chemistry": "R9.4.1",
+            "kit": "PCS109",
+            "fastq_path": "old_data/outputs/simulation/{accuracy}/mixed/0.70_0.29_0.01.fq",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}GAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "0.70-0.30-0.00",
+            "species": "ptr-simulated",
+            "chemistry": "R9.4.1",
+            "kit": "PCS109",
+            "fastq_path": "old_data/outputs/simulation/{accuracy}/mixed/0.70_0.30_0.00.fq",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}GAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "0.80-0.10-0.10",
+            "species": "ptr-simulated",
+            "chemistry": "R9.4.1",
+            "kit": "PCS109",
+            "fastq_path": "old_data/outputs/simulation/{accuracy}/mixed/0.80_0.10_0.10.fq",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}GAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "0.80-0.15-0.05",
+            "species": "ptr-simulated",
+            "chemistry": "R9.4.1",
+            "kit": "PCS109",
+            "fastq_path": "old_data/outputs/simulation/{accuracy}/mixed/0.80_0.15_0.05.fq",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}GAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "0.80-0.19-0.01",
+            "species": "ptr-simulated",
+            "chemistry": "R9.4.1",
+            "kit": "PCS109",
+            "fastq_path": "old_data/outputs/simulation/{accuracy}/mixed/0.80_0.19_0.01.fq",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}GAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "0.80-0.20-0.00",
+            "species": "ptr-simulated",
+            "chemistry": "R9.4.1",
+            "kit": "PCS109",
+            "fastq_path": "old_data/outputs/simulation/{accuracy}/mixed/0.80_0.20_0.00.fq",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}GAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "0.90-0.00-0.10",
+            "species": "ptr-simulated",
+            "chemistry": "R9.4.1",
+            "kit": "PCS109",
+            "fastq_path": "old_data/outputs/simulation/{accuracy}/mixed/0.90_0.00_0.10.fq",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}GAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "0.90-0.05-0.05",
+            "species": "ptr-simulated",
+            "chemistry": "R9.4.1",
+            "kit": "PCS109",
+            "fastq_path": "old_data/outputs/simulation/{accuracy}/mixed/0.90_0.05_0.05.fq",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}GAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "0.90-0.09-0.01",
+            "species": "ptr-simulated",
+            "chemistry": "R9.4.1",
+            "kit": "PCS109",
+            "fastq_path": "old_data/outputs/simulation/{accuracy}/mixed/0.90_0.09_0.01.fq",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}GAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "0.90-0.10-0.00",
+            "species": "ptr-simulated",
+            "chemistry": "R9.4.1",
+            "kit": "PCS109",
+            "fastq_path": "old_data/outputs/simulation/{accuracy}/mixed/0.90_0.10_0.00.fq",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}GAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        },
+        {
+            "name": "1.00-0.00-0.00",
+            "species": "ptr-simulated",
+            "chemistry": "R9.4.1",
+            "kit": "PCS109",
+            "fastq_path": "old_data/outputs/simulation/{accuracy}/mixed/1.00_0.00_0.00.fq",
+            "p5_sense": "ATCGCCTACCGTGACAAGAAAGTTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGC",
+            "p3_sense": "A{100}GAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTTTCTTGTCACGGTAGGCGAT"
+        }
+    ],
+    "references": {
+        "ptr": {
+            "fasta": "ref/Ptr/assembly/Ptrichocarpa_533_v4.0.fa",
+            "gtf": "ref/Ptr/annotation/Ptrichocarpa_533_v4.1.gene_exons.gtf"
+        },
+        "egr": {
+            "fasta": "ref/Egr/Phytozome/PhytozomeV12/Egrandis/assembly/Egrandis_297_v2.0.fa",
+            "gtf": "ref/Egr/Phytozome/PhytozomeV12/Egrandis/annotation/Egrandis_297_v2.0.gene_exons.gtf"
+        },
+        "lch": {
+            "fasta": "ref/Lch/Lich.1_0.fa",
+            "gtf": "ref/Lch/Lich.1_0.gtf"
+        },
+        "hsa": {
+            "fasta": "ref/Hsa/Homo_sapiens.GRCh38.dna.toplevel.fa",
+            "gtf": "ref/Hsa/Homo_sapiens.GRCh38.114.gtf"
+        },
+        "mmu": {
+            "fasta": "ref/Mmu/Mus_musculus.GRCm39.dna.toplevel.fa",
+            "gtf": "ref/Mmu/Mus_musculus.GRCm39.114.gtf"
+        }
+    }
+}
