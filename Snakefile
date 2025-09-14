@@ -156,7 +156,7 @@ evaluation_pipelines_input = expand(
 evaluation_pipelines_input.remove("outputs/SQANTI/pychopper/edlib/ont-visium-mouse_fast") # failed to produce this output
 
 
-# map processed/raw reads to genome
+# Map processed/raw reads to genome
 map2genome_input = expand(
     "outputs/Minimap2/minimap2_genome/{software}/{backend_or_beta}/{name}_{accuracy}.bam",
     software=["pychopper"],
@@ -224,8 +224,4 @@ map2genome_input = expand(
 rule evaluation_pipelines:
     input:
         evaluation_pipelines_input + map2genome_input
-
-rule map2genome:
-    input:
-        map2genome_input
 
